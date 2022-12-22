@@ -1,0 +1,21 @@
+Source: olefile
+Section: python
+Priority: optional
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends: debhelper (>= 11),
+  dh-python,
+  python3-all,
+  python3-setuptools,
+Standards-Version: 4.5.0
+Homepage: http://www.decalage.info/olefile
+
+Package: python3-olefile
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Python module to read/write MS OLE2 files
+ Python package to parse, read and write Microsoft OLE2 files (also called
+ Structured Storage, Compound File Binary Format or Compound Document File
+ Format), such as Microsoft Office 97-2003 documents, vbaProject.bin in
+ MS Office 2007+ files, Image Composer and FlashPix files, Outlook MSG files,
+ StickyNotes, several Microscopy file formats, McAfee antivirus quarantine
+ files, etc.

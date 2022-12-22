@@ -1,0 +1,36 @@
+olefile (0.46-3) unstable; urgency=medium
+
+  * Stop building the Python2 package. Closes: #937187.
+  * Bump debhelper and standards versions.
+
+ -- Matthias Klose <doko@debian.org>  Wed, 16 Sep 2020 13:14:45 +0200
+
+olefile (0.46-2) unstable; urgency=medium
+
+  * Bump standards version.
+
+ -- Matthias Klose <doko@debian.org>  Sat, 26 Oct 2019 16:58:05 +0200
+
+olefile (0.46-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Matthias Klose <doko@debian.org>  Mon, 17 Sep 2018 16:49:32 +0200
+
+olefile (0.45.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Matthias Klose <doko@debian.org>  Fri, 26 Jan 2018 04:09:13 +0100
+
+olefile (0.44-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Matthias Klose <doko@debian.org>  Mon, 09 Jan 2017 12:52:45 +0100
+
+olefile (0.43-1) unstable; urgency=medium
+
+  * Initial release (closes: #850404).
+
+ -- Matthias Klose <doko@debian.org>  Fri, 06 Jan 2017 07:36:25 +0100
